@@ -109,13 +109,14 @@ gulp.task('browserSync', function() {
   browserSync.init({
     server: {
       baseDir: "./"
-    }
+    },
+    open: false
   });
 });
 
 // Dev task
 gulp.task('dev', ['css', 'js', 'browserSync'], function() {
-  gulp.watch('./scss/*.scss', ['css']);
-  gulp.watch('./js/*.js', ['js']);
-  gulp.watch('./*.html', browserSync.reload);
+  // gulp.watch('./scss/*.scss', ['css']);
+  // gulp.watch('./js/*.js', ['js']);
+  // gulp.watch('./*.html', browserSync.reload);
 });
