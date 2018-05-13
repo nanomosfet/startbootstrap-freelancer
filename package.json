@@ -11,6 +11,10 @@
         "theme",
         "template"
     ],
+    "scripts": {
+        "gulp": "gulp",
+        "start": "gulp dev"
+    },
     "homepage": "https://startbootstrap.com/template-overviews/freelancer",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer/issues",
